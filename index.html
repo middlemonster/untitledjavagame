@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts/main.js"></script> 
+  <title>Frames Test</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body onload="init()">
+  <div class="container">
+    <div class="column storyBox" id="storyBox">
+      Place holder text.<br>
+      A second line. <br>
+      A third line.
+    </div>
+    <div class="column actionBar" id="actionBar">
+      <input type="button" class="button start" id="start" value="Start" onclick="start()"> <!--New Game Button-->
+      <input type="button" class="button north" id="north" value="North" onclick="north()"> <!--North Button-->
+      <input type="button" class="button west" id="west" value="West" onclick="west()"> <!--West Button-->
+      <input type="button" class="button east" id="east" value="East" onclick="east()"> <!--East Button-->
+      <input type="button" class="button south" id="south" value="South" onclick="south()"> <!--South Button-->
+      <input type="button" class="button blank1" id="Save" value="blank" onclick="blank()"> <!--Save Button-->
+      <input type="button" class="button blank2" id="Load" value="blank" onclick="blank()"> <!--Load Button-->
+      <input type="button" class="button blank3" id="Look" value="blank" onclick="blank()"> <!--Look Button-->
+      <input type="button" class="button blank4" id="Pick Up" value="blank" onclick="blank()"> <!--Pick Up Button-->
+      <input type="button" class="button blank5" id="Inventory" value="blank" onclick="blank()"> <!--Inventory Button-->
+    </div>
+  </div>
+</body>
+</html>
